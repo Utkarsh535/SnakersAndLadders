@@ -1,0 +1,18 @@
+import java.util.*;
+class nod
+{
+	public static void main(String args[])
+	{
+		int nod,years,months,days,x,y,z;
+		System.out.println("enter no of days");
+		Scanner sc=new Scanner(System.in);
+		nod=sc.nextInt();
+		years=nod/365;
+		System.out.println(years+"years");
+		x=nod%365;
+		months=x/30;
+		System.out.println(months+"months");
+		z=months%30;
+		System.out.println(z+"days");
+	}
+}
