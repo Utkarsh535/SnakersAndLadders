@@ -1,0 +1,30 @@
+import java.util.*;
+public class employee
+{
+	int yoj;
+	double sal;
+	String name;
+	String add;
+	void getdata(int yoj,String name,String add,double sal)
+	{
+		this.yoj=yoj;
+		this.name=name;
+		this.add=add;
+		this.sal=sal;
+	}
+	public static void main(String args[])
+	{
+		employee e1=new employee();
+		employee e2=new employee();
+		employee e3=new employee();
+		e1.getdata(1994,"robert","64-c wallstreet",59999.0);
+		e2.getdata(2000,"sam","68-d wallstreet",60999.0);
+		e3.getdata(1999,"john","26-b wallstreet",58999.0);
+		System.out.println("name"+"\t\t"+"year of joining"+"\t\t"+"address"+"\t\t"+"salary");
+		System.out.println(" ");
+		System.out.println(e1.name+"\t\t"+e1.yoj+"\t\t"+e1.add+"\t\t"+e1.sal);
+		System.out.println(e2.name+"\t\t"+e2.yoj+"\t\t"+e2.add+"\t\t"+e2.sal);
+		System.out.println(e3.name+"\t\t"+e3.yoj+"\t\t"+e3.add+"\t\t"+e3.sal);
+
+	}
+}
