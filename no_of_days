@@ -12,7 +12,7 @@ class nod
 		x=nod%365;
 		months=x/30;
 		System.out.println(months+"months");
-		z=months%30;
+		z=x%30;
 		System.out.println(z+"days");
 	}
 }
