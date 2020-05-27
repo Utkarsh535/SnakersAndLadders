@@ -1,9 +1,9 @@
 import java.util.*;
 public class fribonacci
 {
-	System.out.println("enter the no of terms you want to get");
 	public static void main(String args[])
 	{
+	System.out.println("enter the no of terms you want to get");
 	int a=0,b=1,c,n;
 	Scanner sc=new Scanner(System.in);
 	n=sc.nextInt();
